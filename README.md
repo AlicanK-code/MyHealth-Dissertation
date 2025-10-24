@@ -59,16 +59,16 @@ Project Folder Structure:
 
 All of the classes and additional files for this project, the backend and frontend.
 
-> src\main > java > com\example > App.java - This class contains the necessary code to run the application and implementation of the styles.css file
-> src\main > java > com\example > HomeController.java - This class contains code allowing the user to alternate between screens (booking and information)
-> src\main > java > com\example > InformationController.java - This class contains code allowing the user to alternate to the home page whilst on the informations page
-> src\main > java > com\example > PrimaryController.java - This class contains code allowing the user to perform booking/cancelling appointment functions. Also contains code for MySQL
-> src\main > java > com\example > module-info.java - This class contains code which has defined dependencies that were used within the project and other classes. (JavaFX and SQL)
-> src\main > resources\com\example > homepage.fxml - The FXML files contain code used to build the graphical user-interface and contain information to populate the pages.
-> src\main > resources\com\example > information.fxml
-> src\main > resources\com\example > primary.fxml
-> src\main > resources\com\example > styles.css - The design of the application
-> src\main > resources\com\example > myHealthLogo.png - The application's logo.
+src\main > java > com\example > App.java - This class contains the necessary code to run the application and implementation of the styles.css file
+src\main > java > com\example > HomeController.java - This class contains code allowing the user to alternate between screens (booking and information)
+src\main > java > com\example > InformationController.java - This class contains code allowing the user to alternate to the home page whilst on the informations page
+src\main > java > com\example > PrimaryController.java - This class contains code allowing the user to perform booking/cancelling appointment functions. Also contains code for MySQL
+src\main > java > com\example > module-info.java - This class contains code which has defined dependencies that were used within the project and other classes. (JavaFX and SQL)
+src\main > resources\com\example > homepage.fxml - The FXML files contain code used to build the graphical user-interface and contain information to populate the pages.
+src\main > resources\com\example > information.fxml
+src\main > resources\com\example > primary.fxml
+src\main > resources\com\example > styles.css - The design of the application
+src\main > resources\com\example > myHealthLogo.png - The application's logo.
 pom.xml - Fundamental file created in Maven defining the project's dependencies and configuration for building the project.
 
 ----------------------------------------------------
