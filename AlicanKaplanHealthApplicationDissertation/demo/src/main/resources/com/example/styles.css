@@ -1,0 +1,33 @@
+/* The design of this button was supported by external sources: https://getcssscan.com/css-buttons-examples */
+.button {
+  -fx-background-color: #3ec5fe;
+  -fx-text-fill: white;
+  -fx-font-size: 16px;
+  -fx-border-radius: 10px;
+  -fx-padding: 5px 10px;
+  -fx-background-radius: 10px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 2, 2);
+}
+
+.root {
+  -fx-background-color: #bbdefb; /* The apps background colour */
+}
+
+.tab {
+  -fx-background-color: #81d4fa; /* The tabs background colour */
+  -fx-text-fill: black;
+}
+
+.tab:selected {
+  -fx-background-color: #a7d4fa; /* The selected tab changes colour slightly */
+  -fx-text-fill: white;
+}
+
+.text-box {
+  -fx-background-color: white; /* The text-box background colour for the information page */
+  -fx-padding: 15px;
+  -fx-border-color: #81d4fa;
+  -fx-border-width: 1px;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+}

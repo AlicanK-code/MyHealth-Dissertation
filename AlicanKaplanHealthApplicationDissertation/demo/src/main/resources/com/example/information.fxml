@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.InformationController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label text="Services" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+      <TabPane fx:id="servicesTabPane" side="LEFT" VBox.vgrow="ALWAYS"> <!-- This puts the tabs on the left hand side -->
+         <tabs>
+            <Tab text="Phlebotomy (Blood Tests)">
+               <content>
+               <!--The information regarding blood tests was taken from the NHS Blood tests website: https://www.nhs.uk/conditions/blood-tests/ -->
+                  <VBox spacing="10" style="-fx-padding: 10;" styleClass="text-box">
+                     <Text text="Why a blood test is done?" style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="There are a lot of reasons why you may need a blood test.&#10;" style="-fx-font-size: 15px;"/>
+                     <Text text="A blood test may be done to: " style="-fx-font-size: 15px;"/>
+                     <Text text="▪ Check your general health" style="-fx-font-size:15px;" /> 
+                     <Text text="▪ Find out if symptoms you're having are caused by certain conditions" style="-fx-font-size: 15px;"/>
+                     <Text text="▪ Find out if you're more likely to get a condition. " style="-fx-font-size: 15px;"/>
+                     <Text text="▪ Find out how well a condition is being treated or managed." style="-fx-font-size: 15px;"/>
+                     <Text text="How to get a blood test?" style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="If a healthcare professional such as a GP, nurse or a specialist thinks you need a blood test they will tell you how to book one" style="-fx-font-size: 15px;" wrappingWidth= "600"/>
+                     <Text text="Preparing for a blood test" style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="The GP, nurse, or specialist should tell you if you need to do anything to prepare for a blood test" style="-fx-font-size: 15px;" wrappingWidth = "600"/>
+                     <Text text="For example before tests you might need to: " style="-fx-font-size: 15px;"/>
+                     <Text text="▪ Not eat or drink anything other than water (fast)" style="-fx-font-size: 15px;"/>
+                     <Text text="▪ Stop taking certain medicines" style="-fx-font-size: 15px;"/>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab text="Diabetes Service">
+               <content>
+               <!--The information regarding the diabetes service was taken from the West London NHS Trust Diabetes Serivce website: https://www.westlondon.nhs.uk/our-services/adult/ealing-community-partners/adult-services/locality-services/diabetes-service -->
+                  <VBox spacing="10" style="-fx-padding: 10;" styleClass="text-box">
+                     <Text text="Our diabetes service provides specialist support for adults in the community to improve your diabetes care. " style="-fx-font-size: 16px;" />
+                     <Text text="The Diabetes Integrated Care Service provides specialist care delivered locally for people with complex or difficult to control diabetes.&#10; " style="-fx-font-size: 16px;" />
+                     <Text text="This service provides specialist diabetes care for adults in the community, including:" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Medical and nursing consultant-led clinics " style="-fx-font-size: 16px;" />
+                     <Text text="▪ Diabetes specialist nurse clinics" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Diabetes specialist dietetic services" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Health promotional events" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Educational programmes for patients and professionals &#10;" style="-fx-font-size: 16px;" />
+                     <Text text="Community based support is offered (sometimes called Tier 2 and Tier 3 services). These are mainly for people who have Type 2 diabetes without significant medical complication. &#10; " style="-fx-font-size: 15px;" wrappingWidth="600"/>
+                     <Text text="Contact Details: " style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="For referrals contact the referral hub &#10;Telephone: 1234 1234567 " style="-fx-font-size: 16px;"/>
+                     <Text text="Diabetes Manager: John Smith &#10;Consultant Physician: Jane Doe" style="-fx-font-size: 16px;" />
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab text="Social Care and Support Guide">
+               <content>
+               <!-- The information regarding the Social Care and Support Guide was taken from the NHS Introduction to Social Care and Support website: https://www.nhs.uk/conditions/social-care-and-support-guide/introduction-to-care-and-support/ -->
+                  <VBox spacing="10" style="-fx-padding: 10;" styleClass="text-box">
+                     <Text text="Introduction to Social Care and Support" style="-fx-font-size: 30px; -fx-font-weight: bold;" />
+                     <Text text="This guide is for people who have care and support needs, their carers, and people who are planning for their future care needs" style="-fx-font-size: 16px; "/>
+                     <Text text="&#10;"/>
+                     <Text text="What is social care and support? " style="-fx-font-size: 30px; -fx-font-weight: bold; "/>
+                     <Text text="They're services to help if you: " style="-fx-font-size: 16px;" />
+                     <Text text="▪ Need practical support because of an illness or disabolity " style="-fx-font-size: 16px;" />
+                     <Text text="▪ Care for someone receiving social care and support " style="-fx-font-size: 16px;" />
+                     <Text text="Support and social care is usually paid for by: " style="-fx-font-size: 16px;" />
+                     <Text text="▪ People who need services and their families " style="-fx-font-size: 16px;" />
+                     <Text text="▪ The local council's social services department " style="-fx-font-size: 16px;" />
+                     <Text text="Types of social care and support include: " style="-fx-font-size: 16px; " />
+                     <Text text="▪ Help at home from a paid carer" style="-fx-font-size: 16px; " />
+                     <Text text="▪ Meals at home (meals on wheels)" style="-fx-font-size: 16px; " />
+                     <Text text="▪ Having home adaptions" style="-fx-font-size: 16px; " />
+                     <Text text="▪ Household gadgets and equipment to make life easier"  style="-fx-font-size: 16px; " />
+                     <Text text="▪ Personal alarms and monitoring systems (telecare) so you can call for help (for instance if you have a fall)" style="-fx-font-size: 16px; " />
+                     <Text text="▪ Housing such as supported living services and care homes" style="-fx-font-size: 16px; " />
+                     <Text text="NHS Care " style="-fx-font-size: 30px; -fx-font-weight: bold;" />
+                     <Text text="In some situations, social care and support is provided by the NHS instead of your local council. In these instances, it's usually free and not means tested." style="-fx-font-size: 16px;" />
+                     <Text text="It includes: " style="-fx-font-size: 16px;" />
+                     <Text text="▪ Up to 6 weeks of care after illness or hospital discharge, known as reablement. This service can also be provided by local councils" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Care if you have complex and serious health conditions (NHS Continuing healthcare)" style="-fx-font-size: 16px;" />
+                  </VBox>
+               </content>
+               <!--The information regarding the Mental Health Support service was taken from the NHS Mental Health Services website: https://www.nhs.uk/nhs-services/mental-health-services/ and https://www.nhs.uk/nhs-services/mental-health-services/how-to-find-local-mental-health-services/ -->
+            </Tab>
+            <Tab text="Mental Health Support">
+               <content>
+                  <VBox spacing="10" style="-fx-padding: 10;" styleClass="text-box">
+                     <Text text="NHS therapy and counselling services " style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="NHS talking therapies and services are for people in England aged 18 or over. You can speak to your GP about talking therapies or get in touch with the talking therapies service directly without going to your GP. " style="-fx-font-size: 15px;" wrappingWidth="600"/>
+                     <Text text="Talking therapies can treat conditions like:" style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Depression" style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Generalised Anxiety" style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Social Anxiety" style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Panic and Agrophobia" style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Other Phobias" style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Obsessive-Compulsive Disorder (OCD) " style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Post-Traumatic Stress Disorder (PTSD)" style="-fx-font-size: 16px;"/>
+                     <Text text="▪ Body Dysmorphic Disorder" style="-fx-font-size: 16px;&#10;"/>
+                     <Text text="How to find local mental health services?" style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="You might want to contact one or more of these places to find out about all the adult mental health services that are available" style="-fx-font-size: 16px;" wrappingWidth="600"/>
+                     <Text text="Your GP Surgery: &#10;A doctor can help you work out what kind of support you need and introduce you to the right mental health service. This is known as GP referral." style="-fx-font-size: 16px;" wrappingWidth="600"/>
+                     <Text text="Local councils: &#10;Some mental health services are provided by local authorities such as your council. This includes services like helplines, crisis support and therapy." style="-fx-font-size: 16px;" wrappingWidth="600"/>
+                     <Text text="Local pharmacies: &#10;Pharmacists are trained healthcare professionals and can provide advice on medicines, including those used to treat mental health conditions. Some pharmacists can also offer information on local mental health serivces." style="-fx-font-size: 16px;" wrappingWidth="600"/>
+                  </VBox>
+               </content>   
+            </Tab>
+            <Tab text="General Health">
+               <content>
+               <!-- The information regarding General Health was taken from the NHS health check website: https://www.nhs.uk/conditions/nhs-health-check/ -->
+                  <VBox spacing="10" style="-fx-padding: 10;" styleClass="text-box">
+                     <Text text="What is an NHS Health Check? " style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="The NHS health check is a free check-up of your overall health. It can tell you whether you're at higher risk of getting certain health problems such as: " style="-fx-font-size: 16px; " wrappingWidth="600"/>
+                     <Text text="▪ Heart Disease " style="-fx-font-size: 16px; "/>
+                     <Text text="▪ Diabetes" style="-fx-font-size: 16px; "/>
+                     <Text text="▪ Kidney Disease" style="-fx-font-size: 16px; "/>
+                     <Text text="▪ Stroke" style="-fx-font-size: 16px; "/>
+                     <Text text="During the check-up you will discuss how to reduce your risk of these conditions." style="-fx-font-size: 16px; "/>
+                     <Text text="If you're aged over 65, you'll also be told about symptoms of dementia to look out for. " style="-fx-font-size: 16px; "/>
+                     <Text text="Who is the NHS Check for?" style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+                     <Text text="The check is for people who are aged 40 to 74 who do not have any of the following pre-existing conditions: " style="-fx-font-size: 16px;" />
+                     <Text text="▪ Heart Disease" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Chronic Kidney Disease" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Diabetes" style="-fx-font-size: 16px;" />
+                     <Text text="▪ High Blood Pressure" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Atrial Fibrilation" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Transient Ischaemic Attack" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Inherited High Cholesterol" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Heart Failure" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Perphial Arterial Disease" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Stroke" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Currently being prescribed statins to lower cholesterol" style="-fx-font-size: 16px;" />
+                     <Text text="▪ Previous checks have found that you have a 20% or higher risk of getting cardiovascular disease over the next 10 years" style="-fx-font-size: 16px;" />
+                     <Text text="You should have regular check-ups if you have one of these conditions. Your care team will be able to give you more information about this." style="-fx-font-size: 16px;" />
+                  </VBox>
+               </content>
+            </Tab>   
+         </tabs>
+      </TabPane>
+      <Button text="Return Home" onAction="#handleBackToHome"/>
+   </children>
+</VBox>
