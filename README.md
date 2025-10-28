@@ -18,13 +18,12 @@ Appointment details are saved within the database. A section on information for 
 healthcare trusts where users can look for additional information if they wish to contact services or look for
 specific information.
 
-MyHealth Homepage
+MyHealth Homepage														Appointment Scheduling Page
 
 ![Home Page Screenshot](homePage.png)
 
-Appointment Scheduling Page
+																		![Appointment Scheduling Page](appointmentSchedulingPage.png)
 
-![Appointment Scheduling Page](appointmentSchedulingPage.png)
 
 Appointment Scheduling Calender View
 
