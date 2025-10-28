@@ -18,6 +18,8 @@ Appointment details are saved within the database. A section on information for 
 healthcare trusts where users can look for additional information if they wish to contact services or look for
 specific information.
 
+![MySQL Workbench Schema](MYSQLWORKBENCH.png)
+
 Prerequisites for the project:
 
 Without the following, the application will not run as intended:
